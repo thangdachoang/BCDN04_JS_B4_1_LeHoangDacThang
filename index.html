@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    
+
+<!-- BT1 -->
+<h1>BT1</h1>
+<div class="container w-50 card text-center py-3">
+    <div>
+        <h3>Xuất 3 số theo thứ tự tăng dần</h3>
+    </div>
+    <form class="py-3">
+        <div class="py-3">
+            <label for="so1">số thứ 1</label>
+            <input id="so1" type="number">
+        </div>
+        <div class="py-3">
+            <label for="so2">số thứ 2</label>
+            <input id="so2" type="number">
+        </div>
+        <div class="py-3">
+            <label for="so3">số thứ 3</label>
+            <input id="so3" type="number">
+        </div>
+    </form>
+    <button id="btnSapXep" class="btn btn-success"> Sắp xếp thứ tự</button>
+    <div class="py-3">
+        <span id="txtSapXep"></span>
+    </div>
+</div>
+
+
+
+<!-- BT2 -->
+<h1>BT2</h1>
+<div class="container w-50 card text-center py-3 mt-5" >
+
+    <div >
+        <h3>Chương trình "Chào hỏi"</h3>
+    </div>
+    <form class="py-3">
+        <select id="user" class="form-select">
+            <option value="">Chọn người sử dụng máy</option>
+            <option value="B">Bố</option>
+            <option value="M">Mẹ</option>
+            <option value="A">Anh Trai</option>
+            <option value="E">Em gái</option>
+        </select>
+    </form>
+    <button id="btnUser" class="btn btn-success">Gửi lời chào</button>
+    <div class="py-3">
+        <span id="txtLoiChao"></span>
+    </div>
+</div>
+
+<!-- BT3 -->
+<h1>BT3</h1>
+<div class="container w-50 card text-center py-3 mt-5">
+    <div>
+        <h3>Đếm số chẵn lẻ</h3>
+    </div>
+    <form class="form-control">
+        <div>
+            <label for="int1"> số nguyên 1</label>
+            <input id="int1" type="number">
+        </div>
+        <div class="py-3">
+            <label for="int2"> số nguyên 2</label>
+            <input id="int2" type="number">
+        </div>
+        <div>
+            <label for="int3"> số nguyên 3</label>
+            <input id="int3" type="number">
+        </div>
+    </form>
+    <button id="btnChanLe" class="btn btn-success">Đếm số chẵn, lẻ</button>
+    <div class="py-3">
+        <span id="txtChanLe"></span>
+    </div>
+</div>
+<!-- BT4 -->
+<h1>BT4</h1>
+<div class="container w-50 card text-center py-3 mt-5">
+    <div>
+        <h3>Xác định hình tam giác (vuông, đều, cân)</h3>
+    </div>
+    <form >
+        <div class="py-3">
+            <label for="canh1">cạnh thứ 1</label>
+            <input id="canh1" type="number">
+        </div>
+        <div class="py-3">
+            <label for="canh2">cạnh thứ 2</label>
+            <input id="canh2" type="number">
+        </div>
+        <div class="py-3">
+            <label for="canh3">cạnh thứ 3</label>
+            <input id="canh3" type="number">
+        </div>
+    </form>
+    <button id="btnTamGiac" class="btn btn-success">Dự đoán</button>
+    <div class="py-3">
+        <span id="txtTamGiac"></span>
+    </div>
+</div>
+
+<div class="mt-5"></div>
+
+
+
+
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="./js/demo.js"></script>
+</body>
+</html>
+
